@@ -14,6 +14,7 @@
 		688BDCFF2AAAACA70097BD8A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688BDCFE2AAAACA70097BD8A /* Theme.swift */; };
 		688BDD012AAAAE580097BD8A /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688BDD002AAAAE580097BD8A /* DailyScrum.swift */; };
 		688BDD042AAAAF3C0097BD8A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688BDD032AAAAF3C0097BD8A /* CardView.swift */; };
+		688BDD072AAABE200097BD8A /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688BDD062AAABE200097BD8A /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		688BDCFE2AAAACA70097BD8A /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		688BDD002AAAAE580097BD8A /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		688BDD032AAAAF3C0097BD8A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		688BDD062AAABE200097BD8A /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		688BDCEE2AAAA4600097BD8A /* swiftScrumdingerApp */ = {
 			isa = PBXGroup;
 			children = (
+				688BDD052AAABE120097BD8A /* Styles */,
 				688BDD022AAAAEEC0097BD8A /* Views */,
 				688BDCFD2AAAAC7D0097BD8A /* Models */,
 				688BDCEF2AAAA4600097BD8A /* swiftScrumdingerAppApp.swift */,
@@ -90,6 +93,14 @@
 				688BDD032AAAAF3C0097BD8A /* CardView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		688BDD052AAABE120097BD8A /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				688BDD062AAABE200097BD8A /* TrailingIconLabelStyle.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				688BDD012AAAAE580097BD8A /* DailyScrum.swift in Sources */,
+				688BDD072AAABE200097BD8A /* TrailingIconLabelStyle.swift in Sources */,
 				688BDCFF2AAAACA70097BD8A /* Theme.swift in Sources */,
 				688BDCF22AAAA4600097BD8A /* ContentView.swift in Sources */,
 				688BDCF02AAAA4600097BD8A /* swiftScrumdingerAppApp.swift in Sources */,
