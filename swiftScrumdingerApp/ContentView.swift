@@ -10,7 +10,19 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("App")
+            VStack {
+                ProgressView(value: 10, total: 15)
+                HStack{
+                    VStack {
+                        Text("Segundos Transcurridos")
+                        Label("300", systemImage: "hourglass.tophalf.fill")
+                    }
+                    VStack {
+                        Text("Segundos Restantes")
+                        Label("600", systemImage: "hourglass.bottomhalf.fill")
+                    }
+                }
+            }
         }
         .padding()
     }
