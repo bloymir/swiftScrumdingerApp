@@ -18,6 +18,9 @@ struct ContentView: View {
                     Label("600", systemImage: "hourglass.bottomhalf.fill")
                 }
             }
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel("Tiempo restante")
+            .accessibilityValue("10 minutos")
             Circle()
                 .strokeBorder(lineWidth: 24)
             HStack{
@@ -28,6 +31,7 @@ struct ContentView: View {
                 }){
                     Image(systemName: "forward.fill")
                 }
+                .accessibilityLabel("Siguiente orador")
 
             }
         }
