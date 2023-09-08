@@ -8,9 +8,11 @@ struct DetailView: View {
     var body: some View {
         List{
             Section(header: Text("Información de la reunión")) {
-                Label("Iniciar reunión", systemImage: "timer")
-                    .font(.headline)
-                    .foregroundColor(scrum.theme.accentColor)
+                NavigationLink(destination: ContentView()) {
+                    Label("Iniciar reunión", systemImage: "timer")
+                        .font(.headline)
+                        .foregroundColor(.accentColor)
+                }
                 HStack{
                     Label("Length", systemImage: "clock")
                     Spacer()
@@ -34,7 +36,7 @@ struct DetailView: View {
                 }
             }
         }
-        
+        .navigationTitle(scrum.title)
     }
 }
 
