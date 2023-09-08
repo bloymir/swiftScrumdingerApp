@@ -1,27 +1,34 @@
-//
-//  ContentView.swift
-//  swiftScrumdingerApp
-//
-//  Created by nelson tapia on 07-09-23.
-//
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            VStack {
-                ProgressView(value: 10, total: 15)
-                HStack{
-                    VStack {
-                        Text("Segundos Transcurridos")
-                        Label("300", systemImage: "hourglass.tophalf.fill")
-                    }
-                    VStack {
-                        Text("Segundos Restantes")
-                        Label("600", systemImage: "hourglass.bottomhalf.fill")
-                    }
+            ProgressView(value: 10, total: 15)
+            HStack{
+                VStack (alignment: .leading){
+                    Text("Segundos Transcurridos")
+                        .font(.caption)
+                    Label("300", systemImage: "hourglass.tophalf.fill")
                 }
+                Spacer()
+                VStack (alignment: .trailing){
+                    Text("Segundos Restantes")
+                        .font(.caption)
+                    Label("600", systemImage: "hourglass.bottomhalf.fill")
+                }
+            }
+            Circle()
+                .strokeBorder(lineWidth: 24)
+            HStack{
+                Text("Orador 1 de 3")
+                Spacer()
+                Button(action:{
+                    //
+                }){
+                    Image(systemName: "forward.fill")
+                }
+
             }
         }
         .padding()
