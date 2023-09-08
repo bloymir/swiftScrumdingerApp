@@ -18,6 +18,7 @@ struct ScrumsView: View {
                 }){
                     Image(systemName: "plus")
                 }
+                .accessibilityLabel("Nuevo scrum")
 
             }
         }
