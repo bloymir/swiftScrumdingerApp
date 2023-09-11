@@ -17,6 +17,10 @@ struct DailyScrum: Identifiable {
         self.lengthInMinutes = lengthInMinutes
         self.theme = theme
     }
+    
+    static var emptyScrum: DailyScrum {
+        DailyScrum(title: "", attendees: [], lengthInMinutes: 5, theme: .sky)
+    }
 }
 
 extension DailyScrum {
@@ -31,6 +35,8 @@ extension DailyScrum {
     }
     
 }
+
+
 
 extension DailyScrum {
     static let sampleData: [DailyScrum] =
