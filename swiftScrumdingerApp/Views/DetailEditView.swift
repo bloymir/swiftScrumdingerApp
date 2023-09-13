@@ -20,8 +20,10 @@ struct DetailEditView: View {
                 Slider(value: $scrum.lengthInMinutesAsADouble, in: 5...30, step: 1) {
                     Text("Duración")
                 }
+                .accessibilityValue("\(scrum.lengthInMinutes) minutos")
                 Spacer()
                 Text("\(scrum.lengthInMinutes) minutos")
+                    .accessibilityHidden(true)
             }
         }
     }
@@ -43,9 +45,10 @@ struct DetailEditView: View {
                     }
                 }){
                     Image(systemName: "plus.circle.fill")
+                        .accessibilityLabel("Agregar asistente")
                 }
                 .disabled(newAttendeeName.isEmpty ? true : false)
-
+                
             }
             
         }
