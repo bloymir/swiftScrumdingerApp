@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		684C8D4D2AC22D2400DFC1A5 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684C8D4C2AC22D2400DFC1A5 /* MeetingHeaderView.swift */; };
 		688BDCF02AAAA4600097BD8A /* swiftScrumdingerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688BDCEF2AAAA4600097BD8A /* swiftScrumdingerAppApp.swift */; };
 		688BDCF22AAAA4600097BD8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688BDCF12AAAA4600097BD8A /* ContentView.swift */; };
 		688BDCF42AAAA4640097BD8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 688BDCF32AAAA4640097BD8A /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		684C8D4C2AC22D2400DFC1A5 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 		688BDCEC2AAAA4600097BD8A /* swiftScrumdingerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftScrumdingerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		688BDCEF2AAAA4600097BD8A /* swiftScrumdingerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftScrumdingerAppApp.swift; sourceTree = "<group>"; };
 		688BDCF12AAAA4600097BD8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				688BDD0C2AAFCEEC0097BD8A /* DetailEditView.swift */,
 				688BDD0E2AB150E20097BD8A /* ThemeView.swift */,
 				688BDD102AB2B1550097BD8A /* ThemePicker.swift */,
+				684C8D4C2AC22D2400DFC1A5 /* MeetingHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				688BDD112AB2B1550097BD8A /* ThemePicker.swift in Sources */,
 				688BDD012AAAAE580097BD8A /* DailyScrum.swift in Sources */,
 				688BDD0B2AAACA030097BD8A /* DetailView.swift in Sources */,
+				684C8D4D2AC22D2400DFC1A5 /* MeetingHeaderView.swift in Sources */,
 				688BDD0D2AAFCEEC0097BD8A /* DetailEditView.swift in Sources */,
 				688BDD072AAABE200097BD8A /* TrailingIconLabelStyle.swift in Sources */,
 				688BDCFF2AAAACA70097BD8A /* Theme.swift in Sources */,
