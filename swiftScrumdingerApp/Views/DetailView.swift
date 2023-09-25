@@ -10,7 +10,7 @@ struct DetailView: View {
     var body: some View {
         List{
             Section(header: Text("Información de la reunión")) {
-                NavigationLink(destination: ContentView()) {
+                NavigationLink(destination: ContentView(scrum: $scrum)) {
                     Label("Iniciar reunión", systemImage: "timer")
                         .font(.headline)
                         .foregroundColor(.accentColor)
